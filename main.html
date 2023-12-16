@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Blog</title>
+    <link rel="stylesheet" href="/projeto4/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main class="posts-container">
+            <article class="post">
+                <img src="/projeto4/img/download.png" alt="">
+                <h3 class="title"><a href="#">Titulo</a></h3>
+                <p class="description">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                </p>
+                <p class="author"></p>
+                <a href="#">Ler Mais</a>
+            </article>
+        <main class="posts-container">
+            <article class="post">
+                <img src="/projeto4/img/download.png" alt="">
+                <h3 class="title"><a href="#">Titulo</a></h3>
+                <p class="description">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                </p>
+                <p class="author"></p>
+                <a href="#">Ler Mais</a>
+            </article>
+        <main class="posts-container">
+            <article class="post">
+                <img src="/projeto4/img/download.png" alt="">
+                <h3 class="title"><a href="#">Titulo</a></h3>
+                <p class="description">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                </p>
+                <p class="author"></p>
+                <a href="#">Ler Mais</a>
+            </article>
+        </main>
+        
+        <aside class="sidebar">
+            <section class="search-bar">
+                <h4>Busca</h4>
+                <form action="POST">
+                    <input type="text" placeholder="Pesquise no Blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+        
+    
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <script>
+           
+            $(document).ready(function () {
+                $.getScript("/projeto4/functions.js")
+            });
+        </script>
+
+            <section class="categories">
+                <ul>
+                    <h4>Categorias</h4>
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">SQL</a></li>
+                    <li><a href="#">React</a></li>
+                </ul>
+                </section>
+
+                <section class="tags">
+                <h4>Tags</h4>
+                <div class="tags-container">
+                    <a href="#">Landing Page</a>
+                    <a href="#">DicasDeTecnologia</a>
+                    <a href="#">CódigoAberto</a>
+                    <a href="#">FuturoTecnológico</a>
+                </div>
+                </section>
+            </section>
+        </aside>
+
+    </div>
+    <footer class="footer">
+        <h2>Blog</h2>
+        <p>As melhores Dicas de tecnologias</p>
+        <p>2023 &copy; DevDF</p>
+    </footer>
+</body>
+</html>
